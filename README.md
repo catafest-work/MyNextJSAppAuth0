@@ -162,11 +162,6 @@ This project is licensed under the MIT license. See the [LICENSE](./LICENSE) fil
   [0] event - compiled successfully in 128 ms (106 modules)
 
  ```
-
   - this is the result :
-
-<<<<<<< HEAD
-  [webpage_auth0](http://webpage_auth0.png)
-=======
   ![webpage_auth0](webpage_auth0.png)
->>>>>>> e7003e7f7bb2197207fc3d597bedfd55bd735c4f
+
