@@ -1,5 +1,4 @@
 import { getAccessToken, withApiAuthRequired } from '@auth0/nextjs-auth0';
-
 export default withApiAuthRequired(async function shows(req, res) {
   try {
     const { accessToken } = await getAccessToken(req, res, {
@@ -11,6 +10,7 @@ export default withApiAuthRequired(async function shows(req, res) {
         Authorization: `Bearer ${accessToken}`
       }
     });
+
     const shows = await response.json();
 
     res.status(200).json(shows);
